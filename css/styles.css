@@ -80,10 +80,31 @@ ul {
 /*  */
 /* Button */
 
-/* .button {
+.button {
     color: var(--title-text-color);
     background-color: var(--secondary-bg-color);
-} */
+    
+    font-size: 16px;
+    display: inline-block;
+    border: none;
+}
+
+.button.primary {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+.button.secondary {
+    color: var(--title-text-color);
+    background-color: var(--secondary-bg-color);
+}
+
+
+/* Portfolio */
+
+.project-list .title {
+    color: var(--title-text-color);
+}
 
 
 
