@@ -107,7 +107,6 @@ ul {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
@@ -174,8 +173,6 @@ ul {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    /* text-decoration: none;
-    font-style: normal; */
 }
 
 .contacts .link {
@@ -185,8 +182,6 @@ ul {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    /* text-decoration: none;
-    font-style: normal; */
     }
 
 .site-contacts .link:hover,
@@ -207,6 +202,8 @@ ul {
     font-family: inherit;
     font-size: 16px;
     border: none;
+
+    cursor: pointer;
 }
 
 .button.primary {
