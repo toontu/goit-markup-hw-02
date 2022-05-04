@@ -158,6 +158,11 @@ ul {
     background-color: #2F303A;
 }
 
+.footer-content a {
+    text-decoration: none;
+    font-style: normal;
+}
+
 .footer-content .logo {
     color: var(--primary-white-color);
 }
@@ -169,8 +174,8 @@ ul {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    font-style: normal;
-    text-decoration: none;
+    /* text-decoration: none;
+    font-style: normal; */
 }
 
 .contacts .link {
@@ -180,8 +185,8 @@ ul {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    text-decoration: none;
-    font-style: normal;
+    /* text-decoration: none;
+    font-style: normal; */
     }
 
 .site-contacts .link:hover,
@@ -191,12 +196,6 @@ ul {
 
 
 /* Portfolio */
-
-.filter .button:hover,
-.filter .button:focus {
-    color: var(--accent-color);
-}
-
 
 
 /* Buttons */
@@ -219,6 +218,14 @@ ul {
     background-color: var(--secondary-bg-color);
     color: var(--title-text-color);
 }
+
+.filter .button:hover,
+.filter .button:focus {
+    color: var(--accent-color);
+}
+
+
+/* Portfolio content */
 
 
 .project-card a {
