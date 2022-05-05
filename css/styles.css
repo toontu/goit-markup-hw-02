@@ -23,9 +23,13 @@ body {
     }
 
 
-/* ul {
+.link{
+    text-decoration: none;
+}
+
+.list {
     list-style: none;
-} */
+}
 
 
 /* Хэдер лого */
@@ -37,7 +41,6 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-    text-decoration: none;
 }
 
 .accent {
@@ -46,18 +49,12 @@ body {
 
 /* Хэдер навигация */
 
-.site-nav {
-    list-style: none;
-}
-
-
 .site-nav .link {
     color: var(--title-text-color);
 
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -69,17 +66,12 @@ body {
     color: var(--accent-color);
 }
 
-.site-contacts {
-    list-style: none;
-}
-
 .site-contacts .link {
     color: var(--primary-text-color);
 
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    text-decoration: none;
 }
 
 .site-contacts .link:hover,
@@ -116,14 +108,9 @@ body {
 
 /* Преимущества */
 
-.feature-list {
-    list-style: none;
-}
-
 .feature-list .title {
     color: var(--title-text-color);
 
-    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
@@ -134,9 +121,7 @@ body {
 }
 
 /* Чем мы занимаемся */
-.services {
-    list-style: none;
-}
+
 
 /* Наша команда */
 
@@ -144,14 +129,9 @@ body {
     background-color: #F5F4FA;
 }
 
-.team-list {
-    list-style: none;
-}
-
 .section-title {
     color: var(--title-text-color);
 
-    /* font-weight: 700; */
     font-size: 36px;
     line-height: 1.67;
     text-align: center;
@@ -185,10 +165,6 @@ body {
     color: var(--primary-white-color);
 }
 
-.footer-contacts {
-    list-style: none;
-}
-
 .office-address {
     color: var(--primary-white-color);
 
@@ -214,10 +190,6 @@ body {
 
 
 /* Buttons */
-
-.filter {
-    list-style: none;
-}
 
 .button {
     background-color: var(--secondary-bg-color);
@@ -249,11 +221,6 @@ body {
 
 /* Portfolio content */
 
-.project-card {
-    list-style: none;
-}
-
-
 .project-card a {
     text-decoration: none;
 }
@@ -261,7 +228,6 @@ body {
 .project-card .title {
     color: var(--title-text-color);
 
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
@@ -271,11 +237,10 @@ body {
 .project-card .text {
     color: var(--primary-text-color);
     
-    /* font-weight: 400; */
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
-    /* font-style: normal; */
 }
 
 
