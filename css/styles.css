@@ -165,6 +165,10 @@ body {
     color: var(--primary-white-color);
 }
 
+.footer-content .site-contacts .link {
+font-weight: 400;
+}
+
 .office-address {
     color: var(--primary-white-color);
 
@@ -212,8 +216,9 @@ body {
     color: var(--title-text-color);
 }
 
-.filter .button:hover,
-.filter .button:focus {
+.button.secondary:hover,
+.button.secondary:focus,
+.button.secondary:active {
     background-color: var(--accent-color);
     color: var(--primary-white-color);
 }
