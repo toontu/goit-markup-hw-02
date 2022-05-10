@@ -195,6 +195,10 @@ font-weight: 400;
 
 /* Buttons */
 
+/* .filter > .btn {
+    display: inline;
+} */
+
 .button {
     background-color: var(--secondary-bg-color);
     color: var(--title-text-color);
